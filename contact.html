@@ -17,24 +17,24 @@
                 <h1>great website</h1>
         </div>
 
-        <div class="n">
-                <button href="index.html">home</button>
-                <button href=".html">contact</button>
-                <button href=".html">other</button>
-                <button href=".html">more</button>
-                <button href=".html">etc</button>
-                <button href=".html">yeah</button>
+        <div class="nav">
+                <a href="./index.html">home</a>
+                <a href="./contact.html">contact</a>
+                <a href=".html">other</a>
+                <a href=".html">more</a>
+                <a href=".html">etc</a>
+                <a href=".html">yeah</a>
             </div>
     
         <div class="form">
                 <h1>dont talk to me</h1>
-                <input type="name" placeholder="name"></input>
+                <input class="formtext" type="name" placeholder="name"></input>
                 <p></p>
-                <input type="email" placeholder="@"></input>
+                <input class="formtext" type="email" placeholder="@"></input>
                 <p></p>
-                <input type="msg" placeholder="stuff"></input>
+                <input class="formtext" type="msg" placeholder="stuff"></input>
                 <p></p>
-                <input type="submit" placeholder="submit">
+                <input class="submitbutton" type="submit" onClick="submitmessage()" placeholder="submit">
                 <p></p>
 
         
@@ -51,5 +51,12 @@
                 
                     </div>      
                 </footer>
+
+        <script>
+                function submitmessage() {
+                        window.alert("no thanks");
+                }
+        
+        </script>
 </body>
 </html>

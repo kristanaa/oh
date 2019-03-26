@@ -5,69 +5,12 @@
     background-image: linear-gradient(0deg, rgba(229,214,239,1) 0%, rgba(173,183,213,1) 100%);
     background-size: cover;
     background-repeat: no-repeat;
-    
     padding-top: 0px;
     padding-bottom: 0px;
-
     cursor: cell;
 }
 
-.card{
-    background-color: #ffbfa8;
-    font-family: 'Advent Pro', sans-serif;
-
-
-    text-shadow: none;
-    padding: 0;
-    margin: 1%;
-    margin-left: 5%;
-    margin-right: 5%;
-    border: 3px;
-    border-style: dashed;
-    border-color: white;
-    border-radius: 30px;
-    padding: 5%;
-
-
-}
-
-.box{
-    display: flex;
-    color: #fbecae;
-    font-size: 20px;
-    font-family: 'Advent Pro', sans-serif;
-
-
-}
-
-.content:hover{
-    background-image: url("123.gif");
-    background-size: cover;
-}
-
-.form:hover{
-    opacity: 0;
-
-}
-
-.form{
-    border: 3px;
-    border-style: dashed;
-    border-color: white;
-    border-radius: 30px;
-    font-family: 'Coiny', cursive;
-    color: white;
-    text-shadow: 0px 3px #fbecae;
-    background-color: #c6e2ff;
-    padding: 0px;
-    margin-top: 5%;
-    margin-left: 20%;
-    margin-right: 20%;
-}
-
-
 .header{
-
     line-height: 80px;
     text-align: right;
     font-size: 200%;
@@ -78,17 +21,78 @@
     text-shadow: 0px 5px #f5c2f2;
     font-stretch: ultra-expanded;
     color: #fbecae;
-    
-
 }
-.content{
+
+.nav a {
+    display: inline-block;
+    text-decoration: none;
+    background: transparent;
+    color: white;
+    cursor: cell;
+    font-family: sans-serif;
+    text-align: center;
+    font-family: 'Coiny', cursive;
+    border-radius: 10px;
+    border: 3px;
+    border-style: solid;
+    border-color: white;
+    font-size: 150%;
+    padding: 2%;
+    margin: .5%;
+}
+
+.nav a:hover,
+.nav a:focus{
+    border-radius: 10px;
+    border: 3px;
+    border-style: solid;
+    border-color: #DE7B6E;
+    color: #DE7B6E;
+}
+
+.card{
     background-color: #ffbfa8;
+    font-family: 'Advent Pro', sans-serif;
+    text-shadow: none;
+    padding: 0;
+    margin: 1%;
+    margin-left: 5%;
+    margin-right: 2%;
+    border: 3px;
+    border-style: dashed;
+    border-color: white;
+    border-radius: 30px;
+    padding: 5%;
+}
+
+.card1{
+    background-color: #f5c2f2;
+    font-family: 'Advent Pro', sans-serif;
+    text-shadow: none;
+    padding: 0;
+    margin: 1%;
+    margin-left: 2%;
+    margin-right: 5%;
+    border: 3px;
+    border-style: dashed;
+    border-color: white;
+    border-radius: 30px;
+    padding: 5%;
+}
+
+.box{
+    display: flex;
     color: #fbecae;
+    font-size: 20px;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+.content{
+    background-color: #fbecae;
+    color: #DE7B6E;
     text-decoration: black;
     font-size: 50px;
     font-family: 'Advent Pro', sans-serif;
-
-
     text-shadow: none;
     padding: 0;
     margin: 5%;
@@ -99,7 +103,45 @@
     padding: 5%;
 }
 
+.content:hover{
+    background-image: url("123.gif");
+    background-size: cover;
+}
 
+.form{
+    border: 3px;
+    border-style: dashed;
+    border-color: white;
+    border-radius: 30px;
+    font-family: 'Coiny', cursive;
+    color: #fbecae;
+    text-shadow: 0px 3px #DE7B6E;
+    background-color: #c6e2ff;
+    padding: 0px;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.form:hover{
+    opacity: 0;
+}
+
+.formtext{
+    width: 50%;
+}
+
+.submitbutton{
+    background-color: transparent;
+    cursor: cell;
+    font-family: sans-serif;
+    font-family: 'Coiny', cursive;
+    border-radius: 10px;
+    border: 2px;
+    border-style: solid;
+    border-color: #DE7B6E;
+    color: #DE7B6E;
+}
 
 .bye{
     text-shadow: 0px 5px #c6e2ff;
@@ -107,53 +149,14 @@
     font-size: 30px;
     color: #fbecae;
     padding: 10px;
-    font-family: 'Coiny', cursive;
-   
+    font-family: 'Coiny', cursive;  
 }
 
-.n{
+.nav {
     padding-bottom: 2px;
     padding-top: 2px;
     margin-left: -10%;
     margin-right: -10%;
-
-}
-
-
-button {
-    display: inline-block;
-    border: none;
-    padding: 1rem 2rem;
-    margin: 0;
-    text-decoration: none;
-    background: transparent;
-    color: white;
-    cursor: cell;
-    font-family: sans-serif;
-    text-align: center;
-    transition: background 250ms ease-in-out, 
-                transform 150ms ease;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    font-family: 'Coiny', cursive;
-    border-radius: 10px;
-    border: 3px;
-    border-style: solid;
-    border-color: white;
-    font-size: 150%;
-    padding: 2%;
-    margin: .5%;
-
-
-}
-
-button:hover,
-button:focus {
-    border-radius: 10px;
-    border: 3px;
-    border-style: solid;
-    border-color: #DE7B6E;
-    color: #DE7B6E;
 }
 
 .footer{
@@ -177,14 +180,29 @@ button:focus {
     text-shadow: 0px 2px rgba(173,183,213,1);
 }
 
-
 @media screen and (max-width: 700px) {
     .header{
         text-align: center;
     }
     .box{
-        display: grid;
+        display: inline;
+        margin: 5%;
+    }
+    .nav{
+        margin: 5%;
     }
 
+    .form{
+        margin: 5%;
+    }
+
+    .content{
+        margin: 5%;
+    }
+
+    .formtext{
+        height: 30px;
+        width: 75%;
+    }
 
 }

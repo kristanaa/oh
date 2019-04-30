@@ -12,7 +12,7 @@
 
 .header{
     line-height: 80px;
-    text-align: right;
+    text-align: center;
     font-size: 200%;
     margin-right: 2%;
     margin-bottom: 0;
@@ -90,6 +90,27 @@
 .content{
     background-color: #fbecae;
     color: #DE7B6E;
+    text-decoration: black;
+    font-size: 50px;
+    font-family: 'Advent Pro', sans-serif;
+    text-shadow: none;
+    padding: 0;
+    margin: 5%;
+    border: 3px;
+    border-style: dashed;
+    border-color: white;
+    border-radius: 30px;
+    padding: 5%;
+}
+
+.content2:hover{
+    background-image: url("no.png");
+    background-size: cover;
+}
+
+.content2{
+    background-color: #DE7B6E;
+    color: #c6e2ff;
     text-decoration: black;
     font-size: 50px;
     font-family: 'Advent Pro', sans-serif;

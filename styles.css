@@ -185,6 +185,9 @@
     background-size: cover;
 }
 
+.hidden{
+    visibility: hidden;
+}
 
 .fa{
     color: #DE7B6E;
